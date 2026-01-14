@@ -16,8 +16,8 @@ export const siteConfig: SiteConfig = {
 		fixed: false,
 	},
 	banner: {
-		enable: true, // 必须设为 true 才会显示
-		src: "assets/images/banner.png", // 图片建议放在 src/assets/images/ 下
+		enable: false, // 必须设为 true 才会显示
+		src: "assets/images/demo-banner.png", // 图片建议放在 src/assets/images/ 下
 		position: "center",
 		credit: {
 			enable: false,
@@ -30,9 +30,9 @@ export const siteConfig: SiteConfig = {
 		depth: 2,
 	},
 	favicon: [
-		{
-			src: "/favicon/icon.png", // 建议在 public/favicon/ 下放一个你自己的图标
-		},
+		// {
+		// 	src: "/favicon/icon.png", // 建议在 public/favicon/ 下放一个你自己的图标
+		// },
 	],
 };
 
@@ -50,9 +50,9 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.png", // Recommended: put your avatar in /src/assets/images/
+	avatar: "assets/images/demo-avatar.png", // Recommended: put your avatar in /src/assets/images/
 	name: "Silas Tang",
-	bio: "Lead of icedragon002 | Exploring the intersection of Rust and OS design.",
+	bio: "Lead of icedragon002 	|	Exploring the intersection of Rust and OS design.",
 	links: [
 		{
 			name: "GitHub",
