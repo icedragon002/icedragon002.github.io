@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "System Architecture & Hardware-Software Interface",
 	lang: "en",
 	themeColor: {
-		hue: 215,
+		hue: 250,
 		fixed: true,
 	},
 	banner: {
